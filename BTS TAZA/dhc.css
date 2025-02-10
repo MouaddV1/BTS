@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.course-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-header {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 20px;
+}
+
+.course-header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.course-header p {
+  margin: 5px 0 10px;
+}
+
+.course-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.course-meta span {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.course-tabs {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+.course-tabs ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.course-tabs li {
+  margin: 0;
+}
+
+.course-tabs a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.course-tabs a.active {
+  border-color: #007BFF;
+}
+
+.course-tabs a:hover {
+  background-color: #e6f0ff;
+}
+
+.course-details {
+  padding: 20px;
+}
+
+.module {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.module h2 {
+  margin: 0 0 10px;
+  color: #007BFF;
+}
+
+.module p {
+  margin: 0 0 10px;
+  color: #666;
+}
+
+.module button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.module button:hover {
+  background-color: #0056b3;
+}
